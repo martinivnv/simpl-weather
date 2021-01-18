@@ -15,6 +15,11 @@ h1 {
 	font-size: 2em;
 }
 
+.main-container {
+	position: relative;
+	top: 30px;
+}
+
 #celsius,
 #fahrenheit {
 	background: none;
