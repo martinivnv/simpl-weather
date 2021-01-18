@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html>
 	<head>
 		<meta charset="utf-8" />
@@ -20,7 +20,7 @@
 			</p>
 		<![endif]-->
 		<div class="main-container">
-			<h1>simpl_weather<span id="cursor">|</span></h1>
+			<h1 id="app-title"></h1>
 			<input
 				type="text"
 				placeholder="Enter a city..."
@@ -30,7 +30,20 @@
 				autocomplete="off"
 			/>
 			<button type="button" id="submit">Search</button>
+			<h2 id="location">&nbsp;</h2>
+			<div class="weather-container">
+				<img id="icon" />
+				<div id="weather-info">
+					<h2 id="temperature"></h2>
+					<h3 id="feels-like"></h3>
+					<h3 id="description"></h3>
+				</div>
+			</div>
+			<div id="temp-units">
+				<button id="celsius">C°</button> <button id="fahrenheit">F°</button>
+			</div>
 		</div>
+
 		<script src="script.js"></script>
 	</body>
 </html>
