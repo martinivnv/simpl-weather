@@ -112,15 +112,6 @@ const displayData = (dataObj) => {
 	}
 };
 
-const handleSubmit = () => {
-	let location = inputBox.value;
-	inputBox.value = "";
-	console.log(location);
-	if (location != "") {
-		getWeatherData(location);
-	}
-};
-
 let i = 0;
 let txt = "simpl_weather";
 let typeSpeed = 150;
@@ -147,3 +138,11 @@ inputBox.addEventListener("keydown", (e) => {
 		handleSubmit();
 	}
 });
+
+const handleSubmit = () => {
+	let location = inputBox.value;
+	inputBox.value = "";
+	if (location != "") {
+		getWeatherData(location);
+	}
+};
