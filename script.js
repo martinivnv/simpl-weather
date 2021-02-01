@@ -4,6 +4,8 @@ const toggleCel = document.getElementById("celsius");
 const toggleFah = document.getElementById("fahrenheit");
 toggleCel.style.backgroundColor = "rgba(255, 255, 255, 0.3)";
 
+// Handle switching between Celsius and Fahrenheit
+
 toggleCel.addEventListener("click", (e) => {
 	if (cel == false) {
 		cel = true;
@@ -56,6 +58,8 @@ const fToC = (temp) => {
 	let tempFloat = parseFloat(temp);
 	return (((tempFloat - 32) * 5) / 9).toFixed(1).toString();
 };
+
+// Get data from API, parse it and display it
 
 const api_key = "824051ab1e124bb5dcd2b573e9ba6440";
 
@@ -112,6 +116,8 @@ const displayData = (dataObj) => {
 	}
 };
 
+// Animate title
+
 let i = 0;
 let txt = "simpl_weather";
 let typeSpeed = 150;
@@ -125,6 +131,8 @@ const typeAnimation = () => {
 };
 
 document.addEventListener("DOMContentLoaded", typeAnimation());
+
+// Handle submitting the location
 
 const submitButton = document.getElementById("submit");
 const inputBox = document.getElementById("inputBox");
