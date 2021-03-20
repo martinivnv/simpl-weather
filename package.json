@@ -1,0 +1,26 @@
+{
+	"name": "weather-app",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"engines": {
+		"node": "14.15.4"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/martinivnv/weather-app.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/martinivnv/weather-app/issues"
+	},
+	"homepage": "https://github.com/martinivnv/weather-app#readme",
+	"dependencies": {
+		"express": "^4.17.1"
+	}
+}
