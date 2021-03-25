@@ -65,7 +65,7 @@ const api_key = "824051ab1e124bb5dcd2b573e9ba6440";
 
 async function getWeatherData(input_city) {
 	const response = await fetch(
-		`http://api.openweathermap.org/data/2.5/weather?q=${input_city}&appid=${api_key}`,
+		`https://api.openweathermap.org/data/2.5/weather?q=${input_city}&appid=${api_key}`,
 		{ mode: "cors" }
 	);
 	const weatherData = await response.json();
