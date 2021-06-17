@@ -28,7 +28,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/simpl-weather">
-    <img src="public/favicon.ico" alt="Logo" width="80" height="80">
+    <img src="public/image.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Simpl Weather App</h3>
