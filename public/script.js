@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", typeAnimation());
 // Handle submitting the location
 
 const submitButton = document.getElementById("submit");
-const inputBox = document.getElementById("inputBox");
+const inputBox = document.getElementById("input-box");
 
 submitButton.addEventListener("click", (e) => {
 	handleSubmit();
