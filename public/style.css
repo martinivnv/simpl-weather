@@ -1,5 +1,5 @@
 html {
-	background: linear-gradient(#3a7bd5, #3a6073) no-repeat center center fixed;
+	background: linear-gradient(#5691c8, #457fca) no-repeat center center fixed;
 	background-size: cover;
 }
 
@@ -40,25 +40,24 @@ h3 {
 }
 
 #submit {
-	box-shadow: inset 0px 1px 0px 0px #ffffff;
-	background: linear-gradient(to bottom, #ffffff 5%, #dddddd 100%);
-	background-color: #ffffff;
+	background: rgba(255, 255, 255, 0.7);
+	background-color: rgba(255, 255, 255, 0.7);
 	border-radius: 6px;
-	border: 1px solid #dcdcdc;
 	display: inline-block;
 	cursor: pointer;
-	color: #666666;
+	color: #48484a;
 	font-family: Arial;
 	font-size: 1.4em;
 	font-weight: bold;
 	padding: 6px;
 	text-decoration: none;
-	text-shadow: 0px 1px 0px #ffffff;
 	outline: none;
+	border: none;
 }
 #submit:hover {
-	background: linear-gradient(to bottom, #dddddd 5%, #ffffff 100%);
-	background-color: #dddddd;
+	background: rgba(255, 255, 255, 0.9);
+	background-color: rgba(255, 255, 255, 0.9);
+	color: #504f4f;
 }
 #submit:active {
 	position: relative;
