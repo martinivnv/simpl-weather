@@ -116,7 +116,7 @@ This is an example of how to list things you need to use the software and how to
    
 ## Live Demo
 
-[Click here](http://simpl-weather.herokuapp.com/) to try it out!
+[Click here](https://simpl-weather.netlify.app/) to try it out!
 
 <!-- ROADMAP -->
 ## Roadmap
